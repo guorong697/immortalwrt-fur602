@@ -53,13 +53,13 @@
 		led_status_red: red {
 			function = LED_FUNCTION_STATUS;
 			color = <LED_COLOR_ID_RED>;
-			gpios = <&pio 3 GPIO_ACTIVE_LOW>;
+			gpios = <&pio 13 GPIO_ACTIVE_LOW>;
 		};
 
 		led_status_green: green {
 			function = LED_FUNCTION_STATUS;
 			color = <LED_COLOR_ID_GREEN>;
-			gpios = <&pio 7 GPIO_ACTIVE_LOW>;
+			gpios = <&pio 8 GPIO_ACTIVE_LOW>;
 		};
 	};
 };
