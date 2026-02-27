@@ -176,12 +176,12 @@
 +
 +		status_red {
 +			label = "red:status";
-+			gpios = <&pio 3 GPIO_ACTIVE_LOW>;
++			gpios = <&pio 13 GPIO_ACTIVE_LOW>;
 +		};
 +
 +		status_green {
 +			label = "green:status";
-+			gpios = <&pio 7 GPIO_ACTIVE_LOW>;
++			gpios = <&pio 8 GPIO_ACTIVE_LOW>;
 +		};
 +	};
 +};
